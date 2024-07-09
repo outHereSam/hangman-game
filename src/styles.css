@@ -151,6 +151,22 @@ body {
   background-color: var(--blue-hover);
 }
 
+.play-button {
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+  border: solid 1px black;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #fe71fe, #7199ff);
+  box-shadow: inset 0 -4px 0 5px rgba(36, 48, 65, 1),
+    inset 0 -12px 0 11px rgba(157, 45, 245, 1);
+  transition: 0.2s ease-in;
+}
+
+.play-button:hover {
+  background: linear-gradient(to bottom, #fe71fe, #b6caff);
+}
+
 /*--------------------------------------------------------------------
 Media Queries
 --------------------------------------------------------------------*/
